@@ -76,6 +76,6 @@ export const getMe = async (req, res) => {
     });
     res.json(user, token);
   } catch (error) {
-    res.json({ message: 'No access.' });
+    res.json({ message: "No access." });
   }
 };
